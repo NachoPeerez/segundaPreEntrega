@@ -1,24 +1,26 @@
 
-
-
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 /* Body */
 body {
-    background-color: whitesmoke;
+    
 }
 
 /* Header */
 header {
     display: flex;
-    background-color: white;
-    border-bottom: 1px solid black;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
+    background-color: white;
+    border-bottom: 1px solid black;
 }
 
 .logo {
@@ -41,14 +43,14 @@ a {
 }
 
 .barraDeBusqueda {
-    text-align: start;
-    text-align: left;
+    position: relative;
+    float: left;
 }
 
 
 /* Main */
 main {
-    margin: 2rem;
+    margin: 0;
     padding: 2rem;
 
 }
@@ -221,7 +223,7 @@ textarea {
 /* Footer */
 
 footer {
-    margin: 2rem;
+    margin: 0;
     padding: 2rem;
     border-top: 1px solid black;
     text-align: center;
@@ -233,10 +235,8 @@ footer {
 }
 
 .redesFooter {
-    text-align: right;
-    position: relative;
-    bottom: 5rem;
-    right: 6rem;
+    display:flex ;
+    justify-content: flex-end;
 }
 
 /* Pagina ayuda */
