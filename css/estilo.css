@@ -22,8 +22,7 @@ header {
 }
 
 .logo {
-    width: 15rem;
-    margin-left: 50rem;
+    max-width: 15rem;
 }
 
 
@@ -42,7 +41,6 @@ a {
 }
 
 .barraDeBusqueda {
-    display: flex;
     text-align: start;
     text-align: left;
 }
