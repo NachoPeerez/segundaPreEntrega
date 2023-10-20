@@ -1,0 +1,250 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    background-color: whitesmoke;
+}
+
+/* Header */
+header {
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    width: 15rem;
+    margin-left: 50rem;
+}
+
+
+/* Barra del header */
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+.barraDeBusqueda {
+    display: flex;
+    text-align: start;
+    text-align: left;
+}
+
+
+/* Main */
+main {
+    margin: 2rem;
+    padding: 2rem;
+
+}
+
+.imagenP {
+    width: 100%;
+    background-size: contain;
+    height: 35rem;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+.bordeIconos{
+    border: 2px dashed red;  
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 2rem 0rem;
+
+}
+
+.barraSeparacion {
+    border-top: 1px solid black;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 2rem 0rem;
+    font-size: 2rem;
+}
+
+/* Destacados */
+.contenedorDestacados {
+    margin: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.imagenDestacada {
+    width: 25rem;
+    height: 22rem;
+    padding: .5rem;
+}
+
+/* Remeras */
+.contenedorRemeras {
+    margin: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.imgRemeras {
+    width: 25rem;
+    height: 22rem;
+    padding: .5rem;
+}
+
+.pRemera {
+    position: relative;
+    text-align: center;
+    top: 23rem;
+    right: 13rem;
+    font-size: 20px;
+}
+
+/* Buzos */
+.contenedorBuzos {
+    margin: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.imgBuzos {
+    width: 25rem;
+    height: 22rem;
+    padding: .5rem;
+}
+
+.pBuzos {
+    position: relative;
+    text-align: center;
+    top: 23rem;
+    right: 13rem;
+    font-size: 20px;
+}
+
+/*  Bermudas */
+.contenedorBermudas {
+    margin: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.imgBermudas {
+    width: 25rem;
+    height: 22rem;
+    padding: .5rem;
+}
+
+.pBermudas {
+    position: relative;
+    text-align: center;
+    top: 23rem;
+    right: 13rem;
+    font-size: 20px;
+}
+
+/* Formulario */
+
+form {
+    margin-top: 2rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    color: gray;
+}
+
+input[type="text"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: .2rem solid gainsboro;
+    border-radius: .5rem;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+.btnFormulario {
+    width: 10%;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 1rem, 2rem;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+/* Quienes somos */
+.imgQuienesSomos{
+    width: 40rem;
+    height: 35rem;
+    padding: .5rem;
+}
+.nuestraHistoria{
+    display: inline-block;
+}
+
+.ayuda {
+    display:block;
+    column-count: 2;
+}
+
+/* Footer */
+
+footer {
+    margin: 2rem;
+    padding: 2rem;
+    border-top: 1px solid black;
+    text-align: center;
+    background-color: white;
+}
+
+.contactoFooter {
+    text-align: left;
+}
+
+.redesFooter {
+    text-align: right;
+    position: relative;
+    bottom: 5rem;
+    right: 6rem;
+}
+
+/* Pagina ayuda */
+.preguntasFrecuentes{
+    margin-bottom: 1rem;
+}
+
+/* Responsive */
+
