@@ -127,6 +127,9 @@ h2 {
     font-size: 20px;
 }
 
+.pr{
+    margin-top : 8rem;
+}
 /*  Bermudas */
 .contenedorBermudas {
     margin: 2rem;
@@ -216,5 +219,10 @@ footer {
     margin-bottom: 1rem;
 }
 
+
+
+.colorMain{
+    background-color: #DFDFDF;
+}
 /* Responsive */
 
