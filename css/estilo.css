@@ -12,7 +12,9 @@ body {
     background-color: white;
 }
 
-
+h2{
+    text-decoration: none !important;
+}
 
 .logo {
     max-width: 15rem;
@@ -226,3 +228,6 @@ footer {
 }
 /* Responsive */
 
+.contenedor{
+    margin: 1rem 0 10rem 0;
+}
