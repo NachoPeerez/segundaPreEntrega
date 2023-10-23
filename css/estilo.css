@@ -16,6 +16,10 @@ h2{
     text-decoration: none !important;
 }
 
+.colorMain{
+    background-color: #DFDFDF;
+}
+
 .logo {
     max-width: 15rem;
 }
@@ -222,10 +226,6 @@ footer {
 }
 
 
-
-.colorMain{
-    background-color: #DFDFDF;
-}
 /* Responsive */
 
 .contenedor{
