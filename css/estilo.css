@@ -1,5 +1,5 @@
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -91,18 +91,7 @@ h2 {
 }
 
 /* Destacados */
-.contenedorDestacados {
-    margin: 2rem;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
 
-.imagenDestacada {
-    width: 25rem;
-    height: 35rem;
-    padding: 0.5rem;
-}
 
 /* Remeras */
 .contenedorRemeras {
@@ -231,14 +220,6 @@ footer {
     background-color: white;
 }
 
-.contactoFooter {
-    text-align: left;
-}
-
-.redesFooter {
-    display:flex ;
-    justify-content: flex-end;
-}
 
 /* Pagina ayuda */
 .preguntasFrecuentes{
