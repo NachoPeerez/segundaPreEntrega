@@ -1,167 +1,182 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap);
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
-/* Body */
 body {
-    background-color: white;
+  font-family: "Roboto", sans-serif;
+  background-color: #FAFAFA;
 }
 
+/*Header*/
 h2 {
-    text-decoration: none !important;
-}
-
-.colorMain {
-    background-color: #DFDFDF;
+  text-decoration: none !important;
 }
 
 .logo {
-    max-width: 15rem;
+  max-width: 15rem;
 }
-
 
 /* Barra del header */
 nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 1rem;
+  list-style: none;
+  display: inline-block;
+  margin: 0 1rem;
 }
 
 a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000000;
 }
 
 .barraDeBusqueda {
-    position: relative;
-    float: left;
+  position: relative;
+  float: left;
 }
 
+/*Footer*/
+footer {
+  margin: 0;
+  padding: 2rem;
+  border-top: 1px solid #000000;
+  text-align: center;
+  background-color: #FAFAFA;
+}
+
+/* Responsive */
+.contenedor {
+  margin: 1rem 0 10rem 0;
+}
+
+.mapa {
+  width: 80%;
+}
 
 /* Main */
 main {
-    margin: 0;
-    padding: 2rem;
+  margin: 0;
+  padding: 2rem;
+}
 
+.colorMain {
+  background-color: #DFDFDF;
 }
 
 .imagenP {
-    width: 100%;
-    background-size: contain;
-    height: 35rem;
+  width: 100%;
+  background-size: contain;
+  height: 35rem;
 }
 
 .iconos {
-    display: flex;
-    justify-content: space-evenly;
-    font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
 }
 
 .bordeIconos {
-    border: 4px solid #A5A5A5;
-    padding: 5px;
+  border: 4px solid #A5A5A5;
+  padding: 5px;
 }
 
 h1 {
-    text-align: center;
-    text-decoration: underline;
-    margin: 2rem 0rem;
-
+  text-align: center;
+  text-decoration: underline;
+  margin: 2rem 0rem;
 }
 
 .barraSeparacion {
-    border-top: 1px solid black;
+  border-top: 1px solid #000000;
 }
 
 h2 {
-    text-align: center;
-    text-decoration: underline;
-    margin: 2rem 0rem;
-    font-size: 2rem;
+  text-align: center;
+  text-decoration: underline;
+  margin: 2rem 0rem;
+  font-size: 2rem;
 }
 
 /* Destacados */
-
-
 /* Remeras */
 .contenedorRemeras {
-    margin: 2rem;
-    display: flex;
-    width: 100%;
-    justify-content: center;
+  margin: 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .imgRemeras {
-    width: 25rem;
-    height: 22rem;
-    padding: 0.5rem;
+  width: 25rem;
+  height: 22rem;
+  padding: 0.5rem;
 }
 
 .pRemera {
-    position: relative;
-    text-align: center;
-    top: 23rem;
-    right: 13rem;
-    font-size: 20px;
+  position: relative;
+  text-align: center;
+  top: 23rem;
+  right: 13rem;
+  font-size: 20px;
 }
 
 /* Buzos */
 .contenedorBuzos {
-    margin: 2rem;
-    display: flex;
-    width: 100%;
-    justify-content: center;
+  margin: 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .imgBuzos {
-    width: 25rem;
-    height: 22rem;
-    padding: 0.5rem;
+  width: 25rem;
+  height: 22rem;
+  padding: 0.5rem;
 }
 
 .pBuzos {
-    position: relative;
-    text-align: center;
-    top: 23rem;
-    right: 13rem;
-    font-size: 20px;
+  position: relative;
+  text-align: center;
+  top: 23rem;
+  right: 13rem;
+  font-size: 20px;
 }
 
 .pr {
-    margin-top: 8rem;
+  margin-top: 8rem;
 }
 
 /*  Bermudas */
 .contenedorBermudas {
-    margin: 2rem;
-    display: flex;
-    width: 100%;
-    justify-content: center;
+  margin: 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .imgBermudas {
-    width: 25rem;
-    height: 22rem;
-    padding: 0.5rem;
+  width: 25rem;
+  height: 22rem;
+  padding: 0.5rem;
 }
 
 .pBermudas {
-    position: relative;
-    text-align: center;
-    top: 23rem;
-    right: 13rem;
-    font-size: 20px;
+  position: relative;
+  text-align: center;
+  top: 23rem;
+  right: 13rem;
+  font-size: 20px;
 }
 
 /* Formulario */
-
-
+form {
+  margin-top: 2rem;
+}
 
 .form {
   display: grid;
@@ -171,73 +186,48 @@ h2 {
 }
 
 label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-    color: gray;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #A5A5A5;
 }
 
-input[type="text"],
+input[type=text],
 textarea {
-    display: block;
-    width: 100%;
-    padding: 1rem;
-    border: .2rem solid gainsboro;
-    border-radius: 0.5rem;
-    font-size: 16px;
-    margin-bottom: 1rem;
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border: 0.2rem solid #A5A5A5;
+  border-radius: 0.5rem;
+  font-size: 16px;
+  margin-bottom: 1rem;
 }
 
 .btnFormulario {
-    width: 10%;
-    color: white;
-    background-color: black;
-    border: none;
-    padding: 1rem, 2rem;
-    border-radius: 0.5rem;
-    font-size: 1.5rem;
-    cursor: pointer;
-    margin-top: 1rem;
+  width: 10%;
+  color: #FAFAFA;
+  background-color: #000000;
+  border: none;
+  padding: 1rem, 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 1rem;
 }
 
 /* Quienes somos */
 .imgQuienesSomos {
-    padding: 0.5rem;
-    width: 100%;
+  padding: 0.5rem;
+  width: 100%;
 }
 
 .nuestraHistoria {
-    display: inline-block;
+  display: inline-block;
 }
 
 .ayuda {
-    display: block;
-    column-count: 2;
+  display: block;
+  column-count: 2;
 }
 
-/* Footer */
-
-footer {
-    margin: 0;
-    padding: 2rem;
-    border-top: 1px solid black;
-    text-align: center;
-    background-color: white;
-}
-
-
-/* Pagina ayuda */
-.preguntasFrecuentes {
-    margin-bottom: 1rem;
-}
-
-
-/* Responsive */
-
-.contenedor {
-    margin: 1rem 0 10rem 0;
-}
-
-.mapa {
-    width: 80%;
-}
+/*# sourceMappingURL=estilo.css.map */

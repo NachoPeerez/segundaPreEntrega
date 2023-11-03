@@ -1,0 +1,42 @@
+/* Formulario */
+
+form {
+    margin-top: 2rem;
+}
+
+.form {
+    display: grid;
+    max-width: 500px;
+    margin: 50px auto;
+    gap: 1px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: $color-grisOscuro;
+}
+
+input[type="text"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: .2rem solid $color-grisOscuro;
+    border-radius: 0.5rem;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+.btnFormulario {
+    width: 10%;
+    color: $color-blanco;
+    background-color: $color-negro;
+    border: none;
+    padding: 1rem, 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}

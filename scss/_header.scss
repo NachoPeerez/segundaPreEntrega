@@ -1,0 +1,28 @@
+/*Header*/
+h2 {
+    text-decoration: none !important;
+}
+
+.logo {
+    max-width: 15rem;
+}
+
+/* Barra del header */
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $color-negro;
+}
+
+.barraDeBusqueda {
+    position: relative;
+    float: left;
+}
