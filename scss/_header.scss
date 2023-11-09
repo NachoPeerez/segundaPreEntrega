@@ -1,6 +1,11 @@
 /*Header*/
+@mixin anclas {
+    text-decoration: none;
+    color: $color-negro ;
+}
+
 h2 {
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 .logo {
@@ -13,13 +18,13 @@ nav ul li {
     list-style: none;
     display: inline-block;
     margin: 0 1rem;
+    color: $color-negro
 }
 
 a {
-    text-decoration: none;
+    @include anclas;
     text-transform: uppercase;
     font-weight: bold;
-    color: $color-negro;
 }
 
 .barraDeBusqueda {
